@@ -234,6 +234,7 @@
     <Compile Include="Counters\Spinometer.cs" />
     <Compile Include="Custom\CustomConfigModel.cs" />
     <Compile Include="Custom\CustomCounter.cs" />
+    <Compile Include="Custom\CustomCounterFeature.cs" />
     <Compile Include="Harmony\CoreGameHUDControllerPatch.cs" />
     <Compile Include="Installers\CoreInstaller.cs" />
     <Compile Include="Installers\CountersInstaller.cs" />
