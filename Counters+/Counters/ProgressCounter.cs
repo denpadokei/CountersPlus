@@ -45,7 +45,8 @@ namespace CountersPlus.Counters
                 ProgressMode.TimeInBeats when !Settings.ProgressTimeLeft => "0.00",
 
                 _ when Settings.ProgressTimeLeft => $"{atsc.songLength:F2}",
-                _ when !Settings.ProgressTimeLeft => "0:00"
+                _ when !Settings.ProgressTimeLeft => "0:00",
+                _ => ""
             };
 
             // I'm sorry, little one.
